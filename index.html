@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Typing Scroll</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background: black;
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      transition: opacity 0.5s ease;
+    }
+
+    #scroll-section {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+      min-height: 3000px;
+      background-color: transparent;
+      padding-top: 100vh;
+    }
+
+    .glitch-text {
+  color: palegreen;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  animation: blink 2s steps(1, start) infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+  </style>
+  <script src="p5.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <div id="scroll-section"></div>
+</body>
+</html>
