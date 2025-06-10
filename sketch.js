@@ -10,9 +10,9 @@ let lastTypedTime = 0;
 let artworks = [
   { src: "kibo.JPG", text: "<b>kibo(2025)</b>" },
   { src: "kibo2.JPG", text: "" },
-  { src: "kibo6.JPG", text: "<b>Kineshin & Phage</b>" },
-  { src: "kibo5.JPG", text: "<b>Kineshiin - zoom in</b>" },
-  { src: "kibo4.JPG", text: "<b>Phage - zoom in</b>" },
+  { src: "kibo6.jpg", text: "<b>Kineshin & Phage</b>" },
+  { src: "kibo5.jpg", text: "<b>Kineshiin - zoom in</b>" },
+  { src: "kibo4.jpg", text: "<b>Phage - zoom in</b>" },
   { src: "kibo3.JPG", text: "" },
   { src: "kibo9.JPG", text: "" },
   { src: "kibo7.JPG", text: "" },
