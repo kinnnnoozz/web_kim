@@ -1,5 +1,5 @@
-let introVideo;
-let typingText = "hi this is youngju kim\n\Art, code, and broken circuits\n ▼ 시작하기";
+//let introVideo;
+//let typingText = "hi this is youngju kim\n\Art, code, and broken circuits\n ▼ 시작하기";
 let displayedText = "";
 let index = 0;
 let isTyping = false;
