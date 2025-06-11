@@ -239,11 +239,11 @@ function createSlideShow() {
   gameTextBox.style('position', 'fixed');
   gameTextBox.style('background-color', 'black');
   gameTextBox.style('color', 'palegreen');
-  gameTextBox.style('top', '13%');
+  gameTextBox.style('top', '10%');
   gameTextBox.style('left', 'calc(55%)');
   gameTextBox.style('right', '5%');
   gameTextBox.style('font-family', 'Courier New, monospace');
-  gameTextBox.style('font-size', '20px');
+  gameTextBox.style('font-size', '17px');
   gameTextBox.style('padding', '20px');
   gameTextBox.style('width', 'auto'); // 반응형 너비
   //gameTextBox.style('max-width', '600px'); // 최대 너비 제한
